@@ -1,0 +1,38 @@
+
+
+Дата вызова: 2022-08-29 23:08:03.746261
+Имя вызываемой функции: open_news
+Аргументы функции:['https://habr.com/ru/company/onlinepatent/blog/685282/', 'https://habr.com/ru/company/mvideo/blog/685250/'] 
+Результат  возврата функции None
+Конец вызова
+
+Дата вызова: 2022-08-29 23:08:25.566248
+Имя вызываемой функции: open_news
+Аргументы функции:['https://habr.com/ru/company/onlinepatent/blog/685282/', 'https://habr.com/ru/company/mvideo/blog/685250/'] 
+Результат  возврата функции None
+Конец вызова
+
+Дата вызова: 2022-08-29 23:09:43.538148
+Имя вызываемой функции: open_news
+Аргументы функции:['https://habr.com/ru/company/onlinepatent/blog/685282/', 'https://habr.com/ru/company/mvideo/blog/685250/'] 
+Результат  возврата функции None
+Конец вызова
+
+Дата вызова: 2022-08-29 23:10:05.796167
+Имя вызываемой функции: cheeseshop
+Аргументы функции:Limburger It's very runny, sir. It's really very. VERY runny, sir. 
+Michael Palin John Cleese Cheese Shop Sketch 
+Результат  возврата функции None
+Конец вызова
+Дата вызова: 2022-08-29 23:12:21.525535
+Имя вызываемой функции: cheeseshop
+Аргументы функции:Limburger It's very runny, sir. It's really very. VERY runny, sir. 
+Michael Palin John Cleese Cheese Shop Sketch 
+Результат  возврата функции None
+Конец вызова
+Дата вызова: 2022-08-29 23:12:51.433220
+Имя вызываемой функции: cheeseshop
+Аргументы функции:Limburger It's very runny, sir. It's really very. VERY runny, sir. 
+Michael Palin John Cleese Cheese Shop Sketch 
+Результат  возврата функции None
+Конец вызова
