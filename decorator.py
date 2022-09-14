@@ -1,6 +1,6 @@
 # 2. Написать декоратор - логгер. Он записывает в файл дату и время вызова функции, имя функции, аргументы,
 # с которыми вызвалась и возвращаемое значение с параметром – путь к логам.
-
+from pprint import pprint
 from datetime import datetime
 
 def log(path):
@@ -8,7 +8,6 @@ def log(path):
     def log_call_func(call_func):
         def loging(*args, **kwargs):
             with open(path, 'a', encoding='utf-8') as file_general:
-
                 result = call_func(*args, **kwargs)
                 file_general.write(f'Дата вызова: {datetime.now()}')
                 file_general.write('\n')
@@ -30,6 +29,6 @@ def log(path):
                 file_general.write('Конец вызова')
                 file_general.write('\n')
                 file_general.write('\n')
-
+            return result
         return loging
     return log_call_func

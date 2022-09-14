@@ -52,10 +52,10 @@ def open_news(urls):
         soup = bs4.BeautifulSoup(answer_habr, features='html.parser')
         text_news = soup.find(class_='tm-article-presenter__content tm-article-presenter__content_narrow')
         news = (str(text_news.text).split('\n'))
-        news = news[2:-1]
+        news = news[2:]
         print()
         print("_________________________________")
-        pprint(news)
+        return (news)
 
 if __name__ == "__main__":
-    open_news(maintance_habre_news())
+    pprint(open_news(maintance_habre_news()))

@@ -25,6 +25,7 @@ def log_call_func(call_func):
             file_general.write('\n')
             file_general.write('Конец вызова')
             file_general.write('\n')
+            return result
     return loging
 
 @log_call_func
@@ -36,6 +37,7 @@ def cheeseshop(kind, *arguments, **keywords):
     print("-" * 40)
     for kw in keywords:
         print(kw, ":", keywords[kw])
+    return (arguments, keywords)
 
 word = ("It's very runny, sir.",
         "It's really very.",
@@ -45,4 +47,5 @@ kword = {'shopkeeper' : "Michael Palin",
         'sketch':"Cheese Shop Sketch"}
 
 if __name__ == "__main__":
-    cheeseshop("Limburger", *word, **kword)
+    result = cheeseshop("Limburger", *word, **kword)
+    print(result)
